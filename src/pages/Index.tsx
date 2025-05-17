@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -58,17 +57,7 @@ const Index: React.FC = () => {
                 <div className="h-5 w-5 rounded-full bg-vetter-purple text-white flex items-center justify-center mr-2">✓</div>
                 Business domain and criticality filtering
               </li>
-              <li className="flex items-center">
-                <div className="h-5 w-5 rounded-full bg-vetter-purple text-white flex items-center justify-center mr-2">✓</div>
-                Admin tools for data management
-              </li>
             </ul>
-          </div>
-
-          <div className="text-center">
-            <Button asChild className="bg-vetter-purple hover:bg-vetter-purple-dark">
-              <Link to="/admin/seed">Admin Area</Link>
-            </Button>
           </div>
         </Card>
       </div>

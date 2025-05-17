@@ -9,7 +9,7 @@ export default defineConfig({
     port: 8080,
   },
   plugins: [react()],
-  base: "/pharma-nexus-vision/",
+  base: "/vetters-closet/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
@@ -27,4 +27,4 @@ export default defineConfig({
     },
     sourcemap: true,
   },
-});
+}); 
